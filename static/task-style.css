@@ -1,0 +1,61 @@
+body {
+background-color: #fce4ec; /* Light pink background */
+font-family: 'Arial', sans-serif;
+}
+.navbar {
+background-color: #ff4081 !important; /* Pink navbar */
+}
+.navbar-brand {
+color: #fff !important; /* White text */
+font-weight: bold;
+font-size: 1.5rem;
+}
+.navbar-nav .nav-link {
+color: #fff !important; /* White text */
+}
+.navbar-toggler {
+border-color: #fff !important; /* White toggler button */
+}
+.modal-content {
+background-color: #fce4ec; /* Light pink modal background */
+color: #333; /* Dark text */
+}
+.progress-bar {
+background-color: #ff80ab !important; /* Light pink progress bar */
+}
+.btn-primary {
+background-color: #ff4081 !important; /* Pink button */
+border-color: #ff4081 !important;
+}
+.btn-primary:hover {
+background-color: #f50057 !important; /* Darker pink on hover */
+border-color: #f50057 !important;
+}
+.card {
+background-color: #fff; /* White card background */
+border: 1px solid #ff4081;
+border-radius: 10px;
+}
+.card-header {
+background-color: #ff4081; /* Pink card header */
+color: #fff; /* White text */
+}
+.card-title {
+color: #ff4081; /* Pink card title */
+}
+.card-text {
+color: #666; /* Dark text */
+}
+.footer {
+background-color: #ff4081; /* Pink footer */
+color: #fff; /* White text */
+padding-top: 30px;
+padding-bottom: 20px;
+}
+.accent-text {
+color: #fff; /* White links */
+}
+#copy-banner {
+background-color: #f50057; /* Darker pink footer banner */
+color: #fff; /* White text */
+}

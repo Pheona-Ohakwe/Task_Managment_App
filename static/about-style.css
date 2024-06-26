@@ -1,0 +1,202 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #fefefe;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container-fluid {
+    padding: 50px 20px;
+  }
+  
+  .navbar {
+    background-color: #f10101;
+    border-bottom: 3px solid #db02a3;
+  }
+  
+  .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #db02a3;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+  }
+  
+  .modal-title {
+    color: #f10101;
+  }
+  
+  .modal-body {
+    color: #333;
+  }
+  
+  .btn-primary {
+    background-color: #f10101;
+    border-color: #f10101;
+  }
+  
+  .btn-primary:hover {
+    background-color: #db02a3;
+    border-color: #db02a3;
+  }
+  
+  /* About Section */
+  #about {
+    background-color: #fff;
+    padding: 50px 0;
+  }
+  
+  #about h1 {
+    font-size: 3rem;
+    color: #f10101;
+    text-align: center;
+  }
+  
+  #about p {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  #about img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Mission Section */
+  #mission {
+    background-color: #f0ec02;
+    padding: 50px 0;
+  }
+  
+  #mission h2 {
+    font-size: 2.5rem;
+    color: #23007d;
+    text-align: center;
+  }
+  
+  #mission p {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  /* Values Section */
+  #values {
+    background-color: #b6edfa;
+    padding: 50px 0;
+  }
+  
+  #values h2 {
+    font-size: 2.5rem;
+    color: #0135ce;
+    text-align: center;
+  }
+  
+  .list-group-item {
+    background-color: transparent;
+    border: none;
+    color: #333;
+  }
+  
+  .list-group-item::before {
+    content: "\2022";
+    color: #f10101;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  
+  /* Footer Section */
+  .footer {
+    background-color: #23007d;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+  }
+  
+  .footer a {
+    color: #fff;
+  }
+  
+  .footer a:hover {
+    text-decoration: none;
+    color: #db02a3;
+  }
+  
+  #copy-banner {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar-brand {
+      font-size: 1.5rem;
+    }
+    .navbar-nav .nav-link {
+      font-size: 0.9rem;
+    }
+    #about h1 {
+      font-size: 2.5rem;
+    }
+    #about p {
+      font-size: 1.1rem;
+    }
+    #mission h2 {
+      font-size: 2rem;
+    }
+    #mission p {
+      font-size: 1.1rem;
+    }
+    #values h2 {
+      font-size: 2rem;
+    }
+    .list-group-item {
+      font-size: 1.1rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .navbar-brand {
+      font-size: 1.2rem;
+    }
+    .navbar-nav .nav-link {
+      font-size: 0.8rem;
+    }
+    #about h1 {
+      font-size: 2rem;
+    }
+    #about p {
+      font-size: 1rem;
+    }
+    #mission h2 {
+      font-size: 1.8rem;
+    }
+    #mission p {
+      font-size: 1rem;
+    }
+    #values h2 {
+      font-size: 1.8rem;
+    }
+    .list-group-item {
+      font-size: 1rem;
+    }
+  }
+  
+  

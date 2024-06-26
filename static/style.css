@@ -1,0 +1,154 @@
+.jumbotron {
+    background-image: url('header-image.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+    margin-bottom: 0;
+}
+.card {
+    margin-bottom: 20px;
+}
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #fff;
+    color: #333;
+}
+  
+a {
+    color: #ff6b6b;
+}
+  
+a:hover {
+    text-decoration: none;
+}
+  
+  /* Navbar */
+.navbar-brand {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 1.8rem;
+    color: #ff6b6b;
+}
+  
+.navbar-nav .nav-link {
+    color: #333;
+}
+  
+.navbar-nav .nav-link:hover {
+    color: #ff6b6b;
+}
+  
+  /* Header */
+header {
+    background-color: #ffeadb;
+    text-align: center;
+    padding: 3rem 0;
+}
+  
+header h1 {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 3.5rem;
+    color: #ff6b6b;
+    margin-bottom: 1rem;
+}
+  
+header p {
+    font-size: 1.2rem;
+}
+  
+  /* Features Section */
+#features {
+    background-color: #f7f7f7;
+    padding: 4rem 0;
+}
+  
+.features {
+    font-family: 'Arial Black', sans-serif;
+    color: #ff6b6b;
+}
+  
+.card {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+  
+.card:hover {
+transform: translateY(-10px);
+}
+  
+.card-body {
+padding: 2rem;
+}
+  
+.card-body i {
+font-size: 3.5rem;
+color: #ff6b6b;
+}
+  
+.card-text {
+font-size: 1.2rem;
+}
+  
+  /* About Section */
+#about {
+padding: 4rem 0;
+}
+  
+#about-header {
+font-family: 'Arial Black', sans-serif;
+color: #ff6b6b;
+}
+  
+.about-text {
+font-size: 1.2rem;
+}
+  
+  /* Footer */
+footer {
+background-color: #ffeadb;
+text-align: center;
+padding: 2rem 0;
+}
+  
+.footer p {
+font-size: 1rem;
+color: #333;
+}
+  
+  /* Additional Styles */
+#photo {
+padding: 3rem 0;
+}
+  
+#team {
+width: 100%;
+max-width: 600px;
+border-radius: 10px;
+}
+  
+#professionals {
+padding: 3rem 0;
+background-color: #f7f7f7;
+}
+  
+#professionals-img {
+width: 100%;
+border-radius: 10px;
+}
+  
+  /* Media Queries */
+@media (max-width: 768px) {
+header h1 {
+    font-size: 2.5rem;
+}
+  
+.card-body i {
+    font-size: 2.5rem;
+    }
+}
+  

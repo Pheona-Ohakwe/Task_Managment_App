@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="task-details" content="Task Details">
+    <title>Task Details - Diva Planner</title>
+    <link rel="shortcut icon" href="./static/images/large_taskdaddy.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./static/task-style.css">
+    <script src="https://coolors.co/palette-widget/widget.js"></script>
+    <script data-id="08240210496800466">new CoolorsPaletteWidget("08240210496800466", ["f9d4d4", "e8a798", "d6e4a3", "97f7d4", "c4e0e5", "f3cee3"]); </script>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./static/images/Logo official  2.png" alt="Diva Planner" height="40">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="login.html" id="login" data-bs-toggle="modal"
+                                                data-bs-target="#loginModal">Login</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                               data-bs-toggle="dropdown">
+                                Tasks
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="dashboard.html">Dashboard</a></li>
+                                <li><a class="dropdown-item" href="createtask.html">Create</a></li>
+                                <li><a class="dropdown-item" href="taskdetails.html">Details</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Login</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" pattern="[\w]+@[\w]+[.][a-z]{2,3}"
+                                   placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="rememberMe">
+                            <label class="form-check-label" for="rememberMe">Remember me</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                        <div class="mt-3">
+                            <p>Not a member? <a href="registration.html">Sign up here</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Task Details Content -->
+    <section class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header bg-pink text-white">
+                        Task Details
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Quarterly Budget</h5>
+                        <p class="card-text">
+                            <p><strong>Date Created:</strong> 05/06/2024</p>
+                            <div class="progress mb-3" role="progressbar" aria-label="Quarterly Budget" aria-valuenow="88"
+                                 aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar bg-pink" style="width: 75%">75% Complete</div>
+                            </div>
+                            <p><strong></strong> </p>
+                            
+                            <p><strong>Estimated Date of Completion:</strong> 05/06/2024</p>
+                        </p>
+                        <div class="text-center">
+                            <a href="./dashboard.html" class="btn btn-primary me-3">Complete</a>
+                            <a href="#" class="btn btn-secondary">Edit</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer mt-5">
+        <div class="container-fluid">
+            <div class="row justify-content-between">
+                <div class="col-md-4 mt-3">
+                    <h5>Contact Us</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="mailto:info@divaplanner.com" class="text-pink">pheonahumphrey@gmail.com</a></li>
+                        <li><a href="tel:+1234567890" class="text-pink">+1 234 567 8901</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="./static/images/Logo official  2.png" alt="Diva Planner" height="80">
+                </div>
+                <div class="col-md-4 mt-3">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="privacy_policy.html" class="text-pink">Privacy Policy</a></li>
+                        <li><a href="terms_of_use.html" class="text-pink">Terms of Use</a></li>
+                        <li><a href="#"><i class="fab fa-facebook fa-lg text-pink"></i> Facebook</a></li>
+                        <li><a href="#"><i class="fab fa-instagram fa-lg text-pink"></i> Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12 text-center">
+                    <p class="text-muted">Your ultimate task management and to-do list solution.</p>
+                </div>
+            </div>
+        </div>
+        <div class="text-center py-3" style="background-color: #f9d4d4;">
+            &copy; 2024 Diva Planner. All rights reserved.
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>

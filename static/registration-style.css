@@ -1,0 +1,42 @@
+body {
+background-color: #fff1f1; /* Light pink background */
+}
+.navbar {
+background-color: #ffcccb !important; /* Light coral navbar */
+}
+.card {
+background-color: #ffffff; /* White cards */
+border: none;
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s ease;
+}
+.card:hover {
+transform: translateY(-5px);
+}
+.form-control {
+border-color: #d35d6e; /* Pinkish red border for form controls */
+}
+.form-control.is-invalid, .was-validated .form-control:invalid {
+border-color: #dc3545; /* Red border for invalid controls */
+}
+.form-control.is-valid, .was-validated .form-control:valid {
+border-color: #28a745; /* Green border for valid controls */
+}
+.form-label {
+color: #d35d6e; /* Pinkish red label text */
+}
+.btn-register {
+background-color: #d35d6e; /* Pinkish red button */
+border: none;
+}
+.btn-register:hover {
+background-color: #b93e4f; /* Darker pinkish red on hover */
+}
+.btn-cancel {
+background-color: #f0b7ba; /* Light coral cancel button */
+border: none;
+color: #d35d6e; /* Pinkish red text */
+}
+.btn-cancel:hover {
+background-color: #f8cccc; /* Lighter coral on hover */
+}

@@ -1,0 +1,39 @@
+body {
+background-color: #fff1f1; /* Light pink background */
+}
+.navbar {
+background-color: #ffcccb !important; /* Light coral navbar */
+}
+.card {
+background-color: #ffffff; /* White cards */
+border: none;
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s ease;
+}
+.card:hover {
+transform: translateY(-5px);
+}
+.card-title {
+color: #d35d6e; /* Pinkish red text for card titles */
+}
+.card-body {
+color: #333; /* Dark gray text for card body */
+}
+.btn-add-task {
+background-color: #d35d6e; /* Pinkish red button */
+border: none;
+}
+.btn-add-task:hover {
+background-color: #b93e4f; /* Darker pinkish red on hover */
+}
+.form-control {
+border-color: #d35d6e; /* Pinkish red border for form controls */
+}
+.btn-filter {
+background-color: #ffcccb; /* Light coral button for filters */
+border: 1px solid #d35d6e; /* Pinkish red border */
+color: #d35d6e; /* Pinkish red text */
+}
+.btn-filter:hover {
+background-color: #f0b7ba; /* Lighter coral on hover */
+}
