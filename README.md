@@ -29,7 +29,33 @@ Login: Access your account securely using the login modal.
 Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to submit a pull request.
 
+## Technologies Used
+
+- HTML
+- CSS
+- Bootstrap v. 5.0
+
+
+
+
 
 
 Contact
 For any inquiries or feedback, please contact pohakwe@gmail.com
+
+
+
+
+![Screenshot](./static/images/home.png?raw=true " home page")
+
+![Screenshot](./static/images/task_page.png.png.png?raw=true "contact page")
+
+![Screenshot](./static/images/contact.png.png?raw=true " resume page")
+
+![Screenshot](./static/images/login.png.png?raw=true " resume page")
+
+![Screenshot](./static/images/create_account.png.png?raw=true " resume page")
+
+![Screenshot](./static/images/add_task.png.png?raw=true " resume page")
+
+![Screenshot](./static/images/task_details.png.png?raw=true " resume page")
