@@ -48,14 +48,14 @@ For any inquiries or feedback, please contact pohakwe@gmail.com
 
 ![Screenshot](./static/images/home.png?raw=true " home page")
 
-![Screenshot](./static/images/task_page.png.png.png?raw=true "contact page")
+![Screenshot](./static/images/task_page.png.png?raw=true "contact page")
 
-![Screenshot](./static/images/contact.png.png?raw=true " resume page")
+![Screenshot](./static/images/contact.png?raw=true " resume page")
 
-![Screenshot](./static/images/login.png.png?raw=true " resume page")
+![Screenshot](./static/images/login.png?raw=true " resume page")
 
-![Screenshot](./static/images/create_account.png.png?raw=true " resume page")
+![Screenshot](./static/images/create_account.png?raw=true " resume page")
 
-![Screenshot](./static/images/add_task.png.png?raw=true " resume page")
+![Screenshot](./static/images/add_task.png?raw=true " resume page")
 
-![Screenshot](./static/images/task_details.png.png?raw=true " resume page")
+![Screenshot](./static/images/task_details.png?raw=true " resume page")
